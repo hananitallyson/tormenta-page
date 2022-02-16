@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700;900&family=Sarala:wght@400;700&display=swap');
+
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+/* Styles */
+
+.cabecalho {
+  padding: 45px;
+  background: #EF4532;
+}
+
+.cabecalho-imagem {
+  display: block;
+  margin: 0 auto;
+}
+
+.principal {
+  border-top: 15px solid #EF4532;
+}
+
+.principal-div {
+  display: block;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.principal-section {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.principal-section-div {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.principal-section-div-titulo {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.principal-section-div-subtitulo {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.principal-section-div-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.principal-section-imagem {
+  width: 430px;
+}
+
+.rodape {
+  padding: 25px;
+  position: absolute;
+	bottom: 0;
+	width: 100%;
+  background: #EF4532;
+}
+
+.rodape-paragrafo {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+
+.rodape-link {
+  color: black;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.rodape-link:hover {
+  text-decoration: underline;
+}
