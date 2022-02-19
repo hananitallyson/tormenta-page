@@ -55,6 +55,30 @@ body {
   transform: scale(1.1);
 }
 
+.mensagem-inicial {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.mensagem-inicial-titulo {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mensagem-inicial-paragrafo {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
 .principal-div {
   display: block;
   width: 950px;
@@ -111,6 +135,15 @@ body {
 
 .principal-section-imagem {
   width: 430px;
+}
+
+.rodape-index {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+	width: 100%;
+  background: #EF4532;
 }
 
 .rodape {
